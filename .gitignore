@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+demo_venv/
+.env
+
+# Mac
+.DS_Store
+
+# Large Files (>100MB)
+Emotion_Detection_From_Colab/models/best_model.pth
+
+# Datasets
+data/
+Emotion_Detection_From_Colab/data/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+wandb/
+*.log

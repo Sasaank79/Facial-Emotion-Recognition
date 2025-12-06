@@ -1,0 +1,20 @@
+DISK CLEANUP PLAN - Facial_Emotion_Detection
+=============================================
+
+CURRENT USAGE: ~1.95GB
+
+TO DELETE (saves ~1.7GB):
+1. venv/ - 1.1GB (virtual environment, recreate anytime)
+2. project/ - 615MB (old inferior v1 code)
+3. emotion_v2.zip - 40KB (redundant, source is in emotion_detection_v2/)
+4. demo_webcam.py - 12KB (old broken version)
+5. DEMO_GUIDE.md - 4KB (superseded by FIXED_DEMO_GUIDE.md)
+6. .DS_Store - 6KB (macOS junk)
+
+TO KEEP (~250MB):
+1. Emotion_Detection_From_Colab/ - 233MB (trained model + results - ESSENTIAL)
+2. emotion_detection_v2/ - 132KB (source code - ESSENTIAL)
+3. demo_webcam_fixed.py - 20KB (working demo - ESSENTIAL)
+4. FIXED_DEMO_GUIDE.md - 8KB (instructions - ESSENTIAL)
+
+AFTER CLEANUP: ~250MB (saves 87% disk space!)
